@@ -57,7 +57,7 @@
 ## 📬 Contact
 
 Questions?  
-Email: [qhnguyen5@dons.usfca.edu](mailto:qhnguyen5@dons.usfca.edu)
+Email: [quannguyen0161@gmail.com](mailto:quannguyen0161@gmail.com)
 
 ---
 
