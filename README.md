@@ -1,69 +1,64 @@
-Airbnb San Francisco Market Analysis
-Course: MSMI 603 – Applied Statistics in Marketing Intelligence
-Authors: Sean McDevitt, Taiyi Huang, Jayce Guan, Quan Nguyen
-Date: December 12, 2024
+# Airbnb San Francisco Market Analysis
 
-Overview
-This project applies data-driven analytics to understand the San Francisco Airbnb market, providing recommendations for host recruitment strategy. Using detailed listing and review data, we answer three critical business questions:
+**Course:** MSMI 603 – Applied Statistics in Marketing Intelligence  
+**Authors:** Sean McDevitt, Taiyi Huang, Jayce Guan, Quan Nguyen  
+**Date:** 2024-12-12
 
-Which types of listings should Airbnb prioritize for recruitment?
+---
 
-Is it more effective to focus on individual hosts or company hosts?
+## 🚀 Project Goals
 
-Which amenities should Airbnb encourage hosts to offer?
+- Analyze Airbnb San Francisco data to answer:
+  1. Which listing types should Airbnb recruit?
+  2. Should Airbnb focus on individuals or companies as hosts?
+  3. What amenities should Airbnb incentivize?
 
-Our methodology combines descriptive statistics, regression modeling, and data visualization in R to deliver actionable insights.
+---
 
-Repository Structure
-Final Project.R
-Complete R script for data cleaning, exploratory analysis, regression modeling, and visualization.
-Key analyses include:
+## 📁 Files
 
-Room type and guest ratings
+- `Final Project.R`: All R code (data cleaning, analysis, modeling, visualization)
+- `Stats Final Project Written Report.docx`: Full report (methods, results, recommendations)
+- `SF_Listings.csv`: Airbnb listings data (required to run code)
+- `SF_Reviews.csv`: Airbnb guest reviews (required to run code)
 
-Host type and amenities effects
+---
 
-Text mining of reviews for amenity mentions
+## 🔧 How to Run
 
-Stats Final Project Written Report.docx
-Comprehensive written report with methodology, findings, interpretations, and strategic recommendations.
+1. Clone this repo:
+    ```bash
+    git clone https://github.com/your-username/airbnb-sf-market-analysis.git
+    cd airbnb-sf-market-analysis
+    ```
+2. Place `SF_Listings.csv` and `SF_Reviews.csv` in your working directory.
+3. Open `Final Project.R` in RStudio.
+4. Run code blocks in order to reproduce all tables and plots.
 
-SF_Listings.csv
-Main dataset: San Francisco Airbnb listings.
+---
 
-SF_Reviews.csv
-Supplementary dataset: Guest reviews for text and sentiment analysis.
+## 📊 Main Results
 
-How to Run the Analysis
-Clone or download this repository.
+- Entire homes get the highest guest ratings.
+- Individual hosts outperform company hosts, even controlling for amenities.
+- Only outdoor furniture showed a significant positive effect on ratings; Wi-Fi and TV were linked with lower satisfaction.
 
-Place SF_Listings.csv and SF_Reviews.csv in your working directory.
+---
 
-Open Final Project.R in RStudio or your preferred IDE.
+## 📈 Visualizations
 
-Run the script sequentially to reproduce all results, tables, and visualizations.
+- Average ratings by room type
+- Host type vs. ratings boxplots
+- Amenity impact regression plots
+- Word frequency of amenities in reviews
 
-Key Insights
-Entire homes/apartments consistently receive the highest guest ratings.
+---
 
-Individual hosts outperform companies in guest ratings, even when controlling for amenities.
+## 📬 Contact
 
-Outdoor furniture is the only amenity with a significant positive effect on ratings; surprisingly, basic amenities like Wi-Fi and TV are associated with lower satisfaction, suggesting potential quality or expectation issues.
+Questions?  
+Email: [qhnguyen5@dons.usfca.edu](mailto:qhnguyen5@dons.usfca.edu)
 
-Visual Outputs
-The project generates the following key visualizations:
+---
 
-Average ratings by room type
-
-Ratings comparison: Individual vs. company hosts
-
-Amenity effects on guest satisfaction (regression plots)
-
-Most mentioned amenities in guest reviews (word clouds/frequency charts)
-
-Contact
-Questions or suggestions?
-Contact: Quan Nguyen (qhnguyen5@dons.usfca.edu)
-Or open an issue on GitHub.
-
-<sub>This project was completed as part of the MSMI program at the University of San Francisco for educational purposes.</sub>
+<sub>Project for the MSMI program at University of San Francisco.</sub>
