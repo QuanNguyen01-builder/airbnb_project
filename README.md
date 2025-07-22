@@ -27,10 +27,10 @@ Our approach uses descriptive statistics, regression modeling, and data visualiz
   The full written report, including methodology, results, interpretations, and recommendations.
 
 - **SF_Listings.csv**  
-  Main dataset of Airbnb listings in San Francisco.
+  Main dataset of Airbnb listings in San Francisco from the University of San Francisco.
 
 - **SF_Reviews.csv**  
-  Dataset of guest reviews for text analysis.
+  Dataset of guest reviews for text analysis from the University of San Francisco.
 
 ## How to Reproduce the Analysis
 
