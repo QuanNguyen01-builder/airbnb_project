@@ -1,63 +1,69 @@
-# Airbnb San Francisco Market Analysis
+Airbnb San Francisco Market Analysis
+Course: MSMI 603 – Applied Statistics in Marketing Intelligence
+Authors: Sean McDevitt, Taiyi Huang, Jayce Guan, Quan Nguyen
+Date: December 12, 2024
 
-This project analyzes Airbnb listings in San Francisco using data-driven approaches to answer three key business questions for host recruitment specialists.  
-**Course:** MSMI 603 - Applied Statistics in Marketing Intelligence  
-**Authors:** Sean McDevitt, Taiyi Huang, Jayce Guan, Quan Nguyen  
-**Date:** December 12th, 2024
+Overview
+This project applies data-driven analytics to understand the San Francisco Airbnb market, providing recommendations for host recruitment strategy. Using detailed listing and review data, we answer three critical business questions:
 
-## Project Overview
+Which types of listings should Airbnb prioritize for recruitment?
 
-We explore three main questions:
-1. **What types of listings should Airbnb recruit?**
-2. **Should Airbnb focus on individuals or companies as hosts?**
-3. **What amenities should Airbnb incentivize?**
+Is it more effective to focus on individual hosts or company hosts?
 
-Our approach uses descriptive statistics, regression modeling, and data visualization in R to generate actionable insights.
+Which amenities should Airbnb encourage hosts to offer?
 
-## File Descriptions
+Our methodology combines descriptive statistics, regression modeling, and data visualization in R to deliver actionable insights.
 
-- **Final Project.R**  
-  Contains all the R code for data cleaning, analysis, modeling, and visualization. Includes:
-  - Room type and ratings analysis
-  - Host type and amenities regression
-  - Text analysis of reviews for amenity mentions
-  - Visualization scripts
+Repository Structure
+Final Project.R
+Complete R script for data cleaning, exploratory analysis, regression modeling, and visualization.
+Key analyses include:
 
-- **Stats Final Project Written Report.docx**  
-  The full written report, including methodology, results, interpretations, and recommendations.
+Room type and guest ratings
 
-- **SF_Listings.csv**  
-  Main dataset of Airbnb listings in San Francisco from the University of San Francisco.
+Host type and amenities effects
 
-- **SF_Reviews.csv**  
-  Dataset of guest reviews for text analysis from the University of San Francisco.
+Text mining of reviews for amenity mentions
 
-## How to Reproduce the Analysis
+Stats Final Project Written Report.docx
+Comprehensive written report with methodology, findings, interpretations, and strategic recommendations.
 
-1. Clone the repository.
-2. Open `Final Project.R` in RStudio.
-3. Ensure all datasets (`SF_Listings.csv`, `SF_Reviews.csv`) are in your working directory.
-4. Run the R script step by step to reproduce tables and figures from the report.
+SF_Listings.csv
+Main dataset: San Francisco Airbnb listings.
 
-## Main Insights
+SF_Reviews.csv
+Supplementary dataset: Guest reviews for text and sentiment analysis.
 
-- **Entire homes consistently receive higher guest ratings.**
-- **Individual hosts outperform companies in guest ratings, even after controlling for amenities.**
-- **Outdoor furniture is the only amenity with a significant positive effect on ratings; Wi-Fi and TV surprisingly correlate with lower satisfaction, suggesting quality issues.**
+How to Run the Analysis
+Clone or download this repository.
 
-## Visualizations
+Place SF_Listings.csv and SF_Reviews.csv in your working directory.
 
-The code generates the following key visualizations:
-- Average ratings by room type
-- Host type vs. ratings boxplots
-- Amenity effect on ratings (regression bar charts)
-- Word frequency of amenities in guest reviews
+Open Final Project.R in RStudio or your preferred IDE.
 
-## Contact
+Run the script sequentially to reproduce all results, tables, and visualizations.
 
-For questions, please get in touch with Quan Nguyen at qhnguyen5@dons.usfca.edu or open an issue on GitHub.
+Key Insights
+Entire homes/apartments consistently receive the highest guest ratings.
 
----
+Individual hosts outperform companies in guest ratings, even when controlling for amenities.
 
-*This project was developed for academic purposes at the University of San Francisco.*
+Outdoor furniture is the only amenity with a significant positive effect on ratings; surprisingly, basic amenities like Wi-Fi and TV are associated with lower satisfaction, suggesting potential quality or expectation issues.
 
+Visual Outputs
+The project generates the following key visualizations:
+
+Average ratings by room type
+
+Ratings comparison: Individual vs. company hosts
+
+Amenity effects on guest satisfaction (regression plots)
+
+Most mentioned amenities in guest reviews (word clouds/frequency charts)
+
+Contact
+Questions or suggestions?
+Contact: Quan Nguyen (qhnguyen5@dons.usfca.edu)
+Or open an issue on GitHub.
+
+<sub>This project was completed as part of the MSMI program at the University of San Francisco for educational purposes.</sub>
